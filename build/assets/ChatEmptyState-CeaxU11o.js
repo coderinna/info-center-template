@@ -1,0 +1,1 @@
+import{J as a,j as t,aD as e}from"./vendor-C7C9t1z-.js";const m=({keys:s})=>t.jsxs("div",{className:"chat_empty_div",children:[t.jsx(e,{className:"chat_empty_icon"}),t.jsx("span",{children:s?.write_frist_message||"Write first message"})]}),i=a.memo(m);export{i as default};

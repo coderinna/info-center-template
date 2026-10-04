@@ -1,0 +1,1 @@
+import{j as o}from"./vendor-C7C9t1z-.js";const n=({openSettings:t})=>o.jsx("button",{className:"ownWall_add_post_postForm_settings_buttons",type:"button",onClick:t,children:"⚙️"});export{n as default};

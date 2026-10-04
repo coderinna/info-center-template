@@ -1,0 +1,105 @@
+
+.Charity_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.Charity_badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+background: linear-gradient(135deg, var(--main2), var(--main3));
+  color: black;
+
+  padding: 6px 12px;
+  border-radius: 999px;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  margin-bottom: 12px;
+
+  box-shadow: 0 0 12px    var(--shadow);
+}
+
+.Charity_icon {
+  font-size: 14px;
+}
+
+.Charity_header {
+  font-size: 30px;
+  font-weight: 800;
+
+  color:   var(--text-color);
+  letter-spacing: 0.5px;
+}
+
+.Charity_subtitle {
+  max-width: 420px;
+
+  font-size: 14px;
+  color:   var(--text3-color);
+
+  margin-bottom: 20px;
+
+  line-height: 1.6;
+}
+
+.Charity_list {
+  width: 100%;
+  max-width: 420px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Charity_card {
+  background:  var(--bg-color);
+  border: 1px solid var(--shadow);
+
+  padding: 14px;
+  border-radius: 14px;
+
+  font-size: 15px;
+
+  cursor: default;
+
+  position: relative;
+  overflow: hidden;
+
+  transition: all 0.2s ease;
+  color:   var(--text3-color);
+}
+
+.Charity_card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+ background: radial-gradient(
+  circle at center,
+  color-mix(in srgb, var(--main3) 15%, transparent),
+  transparent 60%
+);
+
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.Charity_card:hover::before {
+  opacity: 1;
+}
+
+.Charity_card:hover {
+  transform: scale(1.02);
+}
+
+.quiz_h1 {
+  margin: 0;
+}

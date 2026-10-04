@@ -1,0 +1,1 @@
+import{j as n}from"./vendor-C7C9t1z-.js";import{L as r,a as e}from"./LinkPreview_empty-BBkY-625.js";import"./ExternalLink-KDeaq2pa.js";const a=({item:t})=>{if(!t?.link)return null;const i=t?.linkContent;return n.jsx("span",{children:i?n.jsx(r,{title:i?.title,description:i?.description,image:i?.image,url:i?.url}):n.jsx(e,{url:t?.link})})};export{a as default};

@@ -1,0 +1,1 @@
+import{j as i}from"./vendor-C7C9t1z-.js";function r({keys:a}){return i.jsxs("div",{className:"quiz_loading_container",children:[i.jsx("h1",{children:a?.header_waite||"Wait!"}),i.jsx("div",{className:"quiz_loader"}),i.jsx("p",{className:"quiz_indicator",children:a?.loading_scoring||"Loading: Scoring..."})]})}export{r as default};

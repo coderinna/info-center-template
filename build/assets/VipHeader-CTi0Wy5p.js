@@ -1,0 +1,1 @@
+import{j as s}from"./vendor-C7C9t1z-.js";const i="/assets/vip-BNlDEBSt.webp",a=({keys:e})=>s.jsxs("h1",{className:"vip-title",children:[s.jsx("img",{className:"vip_image_",loading:"lazy",decoding:"async",src:i,alt:"VIP"}),e?.join_title||"Join VIP"]});export{a as default};

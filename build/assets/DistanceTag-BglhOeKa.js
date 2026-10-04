@@ -1,0 +1,1 @@
+import{j as s}from"./vendor-C7C9t1z-.js";const r=({lat:a,distance:t,keys:n})=>a!=null&&Number(a)!==0?s.jsxs("div",{className:"location-tag",children:["📍"," ",t!=null?`${t.toFixed(1)} km`:n?.searching_location||"Searching..."]}):null;export{r as default};

@@ -1,0 +1,1 @@
+import{j as t}from"./vendor-C7C9t1z-.js";const a=({date:s})=>s instanceof Date&&!isNaN(s)?t.jsxs("div",{className:"posts_footer_dates",children:[t.jsxs("div",{className:"posts_date",children:["🕘"," ",s.toLocaleTimeString(void 0,{hour:"2-digit",minute:"2-digit"})]}),t.jsxs("div",{className:"posts_date",children:[s.toLocaleDateString(void 0)," 📆"]})]}):null;export{a as default};

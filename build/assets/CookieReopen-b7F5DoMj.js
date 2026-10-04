@@ -1,0 +1,1 @@
+import{j as e}from"./vendor-C7C9t1z-.js";const n=({reopenSettings:o})=>e.jsx("div",{className:"cookie-reopen",children:e.jsx("button",{onClick:o,"aria-label":"manage",className:"cookie-icon-btn",children:"🍪"})});export{n as default};

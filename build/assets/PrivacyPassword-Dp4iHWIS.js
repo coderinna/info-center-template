@@ -1,0 +1,1 @@
+import{j as t}from"./vendor-C7C9t1z-.js";import{L as r}from"./LostPasswordProps-fTgd086b.js";import"./Password.service-DCBnxv3Z.js";import"./services-CCUisz6M.js";import"./QuickNoticeBox-DHA_7waQ.js";/* empty css              *//* empty css              */const n=()=>t.jsx("div",{children:t.jsx(r,{})});export{n as default};

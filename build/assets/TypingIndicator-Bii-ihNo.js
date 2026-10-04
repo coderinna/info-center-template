@@ -1,0 +1,1 @@
+import{J as i,j as s}from"./vendor-C7C9t1z-.js";const a=({selectedFriend:t,keys:n})=>s.jsxs("div",{className:"typing-indicator",children:["@",t?.user?.username," ",n?.typing||"typing..."]}),r=i.memo(a);export{r as default};

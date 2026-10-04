@@ -1,0 +1,1 @@
+import{j as e,$ as r}from"./vendor-C7C9t1z-.js";function l({username:s,name:a,isVerified:i}){return e.jsxs("div",{className:"own_wall_card-title",children:["@",s," ",i&&e.jsx("span",{className:"verified-badge",title:"Verified user",children:e.jsx(r,{})}),e.jsx("div",{className:"own_wall_card-username",children:e.jsx("span",{children:a||""})})]})}export{l as default};

@@ -1,0 +1,1 @@
+import{g as n,h as c}from"./vendor-C7C9t1z-.js";const o=1440*60*1e3,a="ttl:",i=async t=>{await c(`${a}${t}`,{cachedAt:Date.now()})},h=async(t,e=o)=>{const s=await n(`${a}${t}`);return s?Date.now()-s.cachedAt<e:!1};export{h as i,i as s};

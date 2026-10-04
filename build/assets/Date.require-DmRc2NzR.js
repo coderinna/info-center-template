@@ -1,0 +1,1 @@
+import{n as o,u as r,i as u,j as t,W as i,X as n}from"./vendor-C7C9t1z-.js";const l=()=>{o();const e=r(),{DateProfile:s}=u(a=>a.DateProfile);return s?t.jsx(n,{}):t.jsx(i,{to:"date",state:{from:e},replace:!0})};export{l as default};

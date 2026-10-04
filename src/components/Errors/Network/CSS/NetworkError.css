@@ -1,0 +1,94 @@
+/* NetworkError.css */
+
+.networkError_section {
+  width: 100%;
+  padding: 25px;
+  background: linear-gradient(
+    135deg,
+    #120909,
+    #220909,
+    #3a0d0d,
+    #120909
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.networkError_overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at top, rgba(255, 0, 85, 0.2), transparent 40%),
+    radial-gradient(circle at bottom, rgba(255, 0, 0, 0.2), transparent 40%);
+  filter: blur(40px);
+}
+
+.networkError_card {
+  width: 420px;
+  max-width: 90%;
+  background: rgba(20, 20, 20, 0.88);
+  border: 1px solid rgba(255, 0, 85, 0.25);
+  backdrop-filter: blur(14px);
+  border-radius: 24px;
+  padding: 40px 30px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  box-shadow:
+    0 0 25px rgba(255, 0, 85, 0.2),
+    0 0 60px rgba(255, 0, 0, 0.1);
+}
+
+.networkError_image {
+  width: 180px;
+  object-fit: contain;
+  margin-bottom: 25px;
+  filter:
+    drop-shadow(0 0 10px rgba(255, 0, 85, 0.5))
+    saturate(1.2);
+}
+
+.networkError_title {
+  color: #ff2f6d;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.networkError_text {
+  color: #d5d5d5;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.networkError_button {
+  border: none;
+  outline: none;
+  background: linear-gradient(135deg, #ff0055, #ff3d00);
+  color: white;
+  padding: 14px 30px;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow:
+    0 0 20px rgba(255, 0, 85, 0.35);
+}
+
+.networkError_button:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow:
+    0 0 30px rgba(255, 0, 85, 0.5);
+}
+
+.networkError_button:active {
+  transform: scale(0.97);
+}

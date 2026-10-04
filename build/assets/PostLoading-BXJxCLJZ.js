@@ -1,0 +1,1 @@
+import{j as s}from"./vendor-C7C9t1z-.js";const n=({keys:a={}})=>s.jsx("div",{className:"loading-container",children:s.jsxs("div",{className:"loading-message",children:[s.jsx("p",{children:a?.post_loading||"Loading.."}),s.jsx("div",{className:"loading-bar",children:s.jsx("div",{className:"loados_spinner"})})]})});export{n as default};

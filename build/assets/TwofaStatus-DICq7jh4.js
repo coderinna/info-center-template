@@ -1,0 +1,21 @@
+import{n as k,m as q,i as M,r as n,j as t}from"./vendor-C7C9t1z-.js";import{f as C}from"./index-Dog7C49N.js";import{g as p,c as y}from"./services-CCUisz6M.js";/* empty css              */import"./cacheTTL-B7obvhff.js";import"./preload-helper-BXl3LOEh.js";const $=async o=>{if(!o)return;const i=p`
+     mutation setupMFA($AccountID: Int!) {
+    setupMFA(AccountID: $AccountID) {
+        res
+        qrCode
+        secret
+        }
+      }
+    `,e={AccountID:o};try{const{data:r}=await y.mutate({mutation:i,variables:e});if(r.setupMFA)return r.setupMFA}catch(r){throw console.log(r),new Error(r.message||"Error signing up.")}},Q=async(o,i)=>{if(!o||!i)return;const e=p`
+     mutation verifyMFA($AccountID: Int!, $token: String!) {
+verifyMFA(AccountID: $AccountID, token: $token) {
+        res
+        }
+      }
+    `,r={AccountID:o,token:i};try{const{data:c}=await y.mutate({mutation:e,variables:r,fetchPolicy:"no-cache"});if(c.verifyMFA)return c.verifyMFA}catch(c){throw console.log(c),new Error(c.message||"Error signing up.")}},L=async o=>{if(!o)return;const i=p`
+     mutation verifyMFADelete($AccountID: Int!) {
+verifyMFADelete(AccountID: $AccountID) {
+        res
+        }
+      }
+    `,e={AccountID:o};try{const{data:r}=await y.mutate({mutation:i,variables:e,fetchPolicy:"no-cache"});if(r.verifyMFADelete)return r.verifyMFADelete}catch(r){throw console.log(r),new Error(r.message||"Error signing up.")}},h={setupMFA:$,verifyMFA:Q,verifyMFADelete:L},H=()=>{const o=k(),{t:i}=q(),e=i("Settings_2FA",{returnObjects:!0}),{User:r}=M(s=>s.UserSlice),{user:c}=M(s=>s.auth),[g,O]=n.useState(null),[v,S]=n.useState(null),[w,j]=n.useState(""),[m,f]=n.useState("intro"),[A,l]=n.useState(null),[d,u]=n.useState(!1),[P,x]=n.useState(!1),[R,F]=n.useState(""),[T,D]=n.useState(null),[U,b]=n.useState(!1),N=async()=>{u(!0),l(null);try{const s=await h.setupMFA(r?.id);s?.qrCode?(S(s?.qrCode),f("verify")):s?.res==="MFA-OK"&&f("done")}catch(s){console.error("fetchQr error:",s),l(e?.fail_gq||"QR code retrieval failed. Please try again later.")}finally{u(!1)}},_=async s=>{s.preventDefault(),l(null),u(!0);try{const a=w.replace(/-/g,"").trim();(await h.verifyMFA(r.id,a))?.res==="OK"&&(f("done"),setTimeout(()=>{o({type:"auth/set2FA",payload:"Y"})},1500))}catch{l(e?.network||"⚠️ Network error or server not responding.")}finally{u(!1)}};n.useEffect(()=>{c?.mfaEnabled==="Y"&&f("done")},[c]);const E=s=>{let a=s.target.value.replace(/\D/g,"");a.length>6&&(a=a.slice(0,6)),a.length>3&&(a=a.slice(0,3)+"-"+a.slice(3)),j(a)},I=async()=>{l(null),u(!0);try{const s=await h.verifyMFADelete(r.id,g);s?.res==="OK"&&(f("done"),x(!0),F(""),D(Date.now()),b(!0),setTimeout(async()=>{await o(C(r.id))},1e3)),s?.res==="INVALID_PASSWORD"&&(x(!0),F(e?.wrong_pass||"Incorrect password"),D(Date.now()),b(!1))}catch{l(e?.netwwork_errr||"⚠️ Network error or server not responding.")}finally{u(!1)}};return t.jsxs("div",{className:"User_item_box",children:[t.jsx("h4",{className:"settings_title",children:e?.title||"2-FA verify"}),m==="intro"&&t.jsxs(t.Fragment,{children:[t.jsxs("div",{className:"twofa-info-text text",children:[e?.welcome||"Your account is still missing 2-step verification!",t.jsx("br",{}),e?.welcome_text||"Press Start to see the QR code for the Authenticator app."]}),t.jsx("button",{className:"twofa-btn",onClick:N,disabled:d,children:d?e?.loading||"Loading...":e?.start_loading||"Start"})]}),m==="verify"&&v&&t.jsxs(t.Fragment,{children:[t.jsx("p",{children:e?.qr_text||"Scan this QR code in Microsoft/Google Authenticator:"}),t.jsx("img",{className:"twofa-qr-image",src:v,alt:"2FA QR"}),t.jsxs("form",{onSubmit:_,className:"twofa-form",children:[t.jsx("label",{className:"text",children:e?.enter_qr_code||"Enter the code in Authenticator:"}),t.jsxs("div",{className:"twofa-input-wrapper",children:[t.jsx("input",{type:"text",value:w,onChange:E,placeholder:"123-456",maxLength:7,className:"verify_2fa_input"}),t.jsx("button",{type:"submit",className:"twofa-btn",disabled:d,children:d?e?.verified||"Verified":e?.verify||"Verify"})]})]}),A&&t.jsx("p",{className:"twofa-error",children:A})]}),m==="done"&&t.jsxs("div",{children:["✅ ",e?.already_have||"Two-factor authentication is enabled for your account!",t.jsx("button",{className:"friends_button_red",onClick:I,disabled:!g,children:e?.delete||"DELETE"})]})]})};export{H as default};

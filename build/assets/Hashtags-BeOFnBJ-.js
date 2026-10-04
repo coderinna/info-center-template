@@ -1,0 +1,1 @@
+import{j as a}from"./vendor-C7C9t1z-.js";const i=({hashtags:s=[]})=>!Array.isArray(s)||s.length===0?null:a.jsx("div",{className:"posts_Hashtags_container",children:a.jsx("div",{className:"posts_Hashtags_items",children:s.map((t,r)=>{const n=t?.hashtag?.hashtag||"Unknown";return a.jsxs("span",{className:"hashtag-link",children:["#",n]},`${n}-${r}`)})})});export{i as default};

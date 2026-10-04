@@ -1,0 +1,1 @@
+import{j as t}from"./vendor-C7C9t1z-.js";const b=({keys:n})=>{const i=["benefit_1","benefit_2","benefit_3","benefit_4","benefit_5","benefit_6","benefit_7"];return t.jsx("ul",{children:i.map((f,e)=>t.jsx("li",{children:n?.[f]||`Benefit ${e+1}`},e))})};export{b as default};

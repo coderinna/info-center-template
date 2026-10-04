@@ -1,0 +1,1 @@
+import{j as i}from"./vendor-C7C9t1z-.js";const t=({step:a})=>a<1||a>4?null:i.jsx("div",{className:"step-navigator",children:[1,2,3,4].map(e=>i.jsx("div",{className:`step-circle ${a===e?"active":"inactive"}`,children:e},e))});export{t as default};

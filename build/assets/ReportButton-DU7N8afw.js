@@ -1,0 +1,1 @@
+import{j as t,b6 as e}from"./vendor-C7C9t1z-.js";function u({isOwnProfile:r,onToggle:n,label:o="Report"}){return r?null:t.jsx("span",{children:t.jsxs("button",{className:"report-button",onClick:n,children:[t.jsx(e,{})," ",o]})})}export{u as default};

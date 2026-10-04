@@ -1,0 +1,1 @@
+import{j as e}from"./vendor-C7C9t1z-.js";const d=({keys:t,renderTimeAgo:s,UserURL:r})=>{if(r?.createdAt)return e.jsx("div",{className:"own_wall_card_footer",children:e.jsx("div",{className:"own_wall_card-registered",children:e.jsxs("span",{children:[t?.registed||"Registered:"," ",s(r?.createdAt)]})})})};export{d as default};

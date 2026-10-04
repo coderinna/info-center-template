@@ -1,0 +1,181 @@
+# Yleistä
+Viimeisin päivitys: [03.02.2025]
+
+Tässä tietosuojaselosteessa kerrotaan, miten info_center_template kerää ja käsittelee sinua koskevia henkilö- ja muita tietoja.
+
+Yksityissuojasi on meille tärkeä ja haluamme olla avoimia, kuinka käytämme ja käsittelemme tietojasi.
+
+Tämän selosteen tarkoitus on auttaa sinua ymmärtämään mitä tietoja keräämme, kuinka käytämme tietojasi, miten tietojasi jaetaan ja kuinka voit hallita tietojasi.
+
+Tämä seloste sisältää ne tiedot joita keräämme kun käytät palvelua. Jos et hyväksy ehtoja, älä käytä palvelua.## Mitä ovat rekisteritiedot?
+Henkilötiedot ovat mitä tahansa tietoja, jotka liittyvät tunnistettuun tai tunnistettavissa olevaan henkilöön (esim. nimi, sähköpostiosoite, IP-osoite).
+
+**Henkilötietojen käsittelyllä** tarkoitetaan kaikkea mitä tehdään henkilötiedoilla (kerääminen, tallentaminen, muokkaaminen, jakaminen, poistaminen).
+
+## Rekisterinpitäjä
+info_center_template Corp.
+
+# Palvelussa kerättävät tiedot
+
+## Rekisteröintitiedot
+**Kerätty tieto:**
+- Sähköposti
+- Syntymäaika
+- Kryptattu salasana
+- Rekisteröinti päivämäärä
+
+Käyttötarkoitus:
+
+- Sähköposti: Asiakassuhteen ylläpitäminen, palvelun käytön mahdollistaminen.
+- Syntymäaika: Rekisteröityminen voi oikeudellisesti olla sopimuksen kaltainen tapahtuma (esim. käyttöehdot). Varmistamalla iän, yritys voi osoittaa, 
+että käyttäjä on täysi-ikäinen.
+ Jos palvelussa tehdään ostoksia, maksutapahtumat edellyvät todistettua täysi-ikäisyyttä.
+- Salasana: Käyttäjän tunnistaminen ja kirjautumisen mahdollistaminen. Salasana tallennetaan turvallisesti kryptattuna eikä ole koskaan nähtävissä selkokielisenä.
+- Päivämäärä: Rekisteröintipäivämäärä toimii teknisenä lokitietona sekä palvelunominaisuus.
+- Valittu kieli: Käyttäjälle näytetään sisältö valitulla kielellä, jotta palvelun käyttö ja viestintä olisi ymmärrettävää ja saavutettavaa.
+
+**Tiedon lähde:** Asiakas  
+**Käsittelyn peruste:** Asiakkaan suostumus, sopimuksen täyttäminen  
+**Säilytysaika:** Kahden viikon säilytysaika tunnuksen poistamisen jälkeen.
+
+---
+
+## Rekisteröinnin jälkeen pakolliset käyttäjätiedot
+**Kerätty tieto:**
+- Etunimi ja/tai sukunimi
+- Käyttäjätunnus
+- Sähköpostin vahvistaminen
+
+**Käyttötarkoitus:**
+- Asiakassuhteen ylläpitäminen
+- Palvelun käytön mahdollistaminen
+
+**Tiedon lähde:** Asiakas  
+**Käsittelyn peruste:** Asiakkaan suostumus, sopimuksen täyttäminen  
+**Säilytysaika:** Kahden viikon säilytysaika tunnuksen poistamisen jälkeen.
+
+---
+
+## Vapaa-ehtoiset profiilitiedot
+**Kerätty tieto:**
+- Profiilikuva & Kansikuva
+- Slogan & Kuvaus
+- Bio bio ja kuvat
+
+**Käyttötarkoitus:**
+- Palvelun käyttö ja ominaisuus
+- Asiakassuhteen ylläpitäminen
+
+**Tiedon lähde:** Asiakas  
+**Käsittelyn peruste:** Asiakkaan suostumus  
+**Säilytysaika:** Kahden viikon säilytysaika tunnuksen poistamisen jälkeen.
+
+---
+
+## Profiilin yksityisyysasetukset
+**Kerätty tieto:**
+- Profiilin yksityisyys astukset 
+
+**Käyttötarkoitus:**
+- Palvelun käyttö ja ominaisuus
+- Tietoturva
+
+**Tiedon lähde:** Asiakas  
+**Käsittelyn peruste:** Asiakkaan suostumus  
+**Säilytysaika:** Kahden viikon säilytysaika tunnuksen poistamisen jälkeen.
+
+---
+
+## Oma toiminta
+**Kerätty tieto:**
+- IP-osoite
+- Aikaleima
+- Tapahtuma
+- Kuvaus
+
+**Käyttötarkoitus:**
+- Tietoturva
+- Palvelun tekninen toteutus
+- Palvelun käyttö ja ominaisuus
+
+**Tiedon lähde:** Saadaan automaattisesti asiakkaan toiminnasta  
+**Käsittelyn peruste:** Asiakkaan suostumus, sopimuksen täyttäminen  
+**Säilytysaika:** Kahden viikon säilytysaika tunnuksen poistamisen jälkeen.
+
+---
+
+## Palvelun käyttö
+**Kerätty tieto:**
+- Julkaisun tekeminen, muiden julkaisuihin reagointi, kommentointi, yhteyksien muutokset, viestit
+
+**Käyttötarkoitus:**
+- Tietoturva
+- Palvelun tekninen toteutus
+- Palvelun käyttö ja ominaisuus
+
+**Tiedon lähde:** Asiakas  
+**Käsittelyn peruste:** Asiakkaan suostumus, sopimuksen täyttäminen  
+**Säilytysaika:** Kahden viikon säilytysaika tunnuksen poistamisen jälkeen.
+
+# Tietojen saanti
+## Oikeus päästä omiin tietoihin
+Käyttäjällä on oikeus tarkistaa itseään koskevat tiedot rekisteristä. Tämä tarkoittaa, että hän voi tarkastella omia tietojaan profiilisivultaan, asetuksistaan tai pyytämällä omien tietojen lataamista palvelusta.
+
+## Oikeus kerätä ja käsitellä henkilötietoja
+Yritys saa kerätä ja käsitellä henkilötietoja, mikäli se tekee niin lainmukaisella ja läpinäkyvällä tavalla, ja sillä on siihen perusteltu syy (esim. suostumus, sopimus, oikeutettu etu).
+
+## Tietojen minimointi
+Kerää vain sellaisia tietoja, joita todella tarvitset sovelluksesi toimintaan. Älä kerää ylimääräisiä tietoja.
+
+# Tiedot yleisesti
+## Oikeus tietää tietosuojasäädännöt
+Käyttäjällä on oikeus saada selkeä tieto siitä, mihin, miten, missä ja kuka heidän henkilötietojaan käyttää info_center_template:ssa.
+
+## Selvittäminen ja läpinäkyvyys
+Yrityksen tulee antaa selkeää ja ymmärrettävää tietoa siitä, miten ja miksi henkilötietoja kerätään, käsitellään ja säilytetään.
+
+Henkilötietojen käsittelylle on oltava laillinen peruste, kuten suostumus, sopimus, lakisääteinen velvoite, elintärkeä etu, yleinen etu tai oikeutettu etu.
+
+# Oikeus muuttaa tietosuojaselostetta
+Kehitämme palvelujamme jatkuvasti ja pidätämme itsellämme oikeuden muuttaa tätä tietosuojaselostetta milloin vain. Muutokset voivat perustua myös lainsäädännön muuttumiseen.
+
+Käyttäjän vastuulla on tutustua kulloinkin voimassa olevaan tietosuojaselosteeseen.
+
+# Tietojen muokkaaminen
+## Oikeus oikaista virheellisiä tietoja
+Asiakkaalla on oikeus pyytää virheellisten tietojen oikaisemista. Hänen on voitava korjata tietojaan tarvittaessa.
+
+### Palvelun velvollisuuden tiedonsaantiin ja oikaisemiseen
+Yrityksen on mahdollistettava käyttäjille heidän oikeutensa tarkastaa omat henkilötietonsa ja pyytää virheellisten tietojen oikaisua.
+
+## Tietojen rajaaminen tai kokonaan lopettaminen
+### Oikeus rajoittaa käsittelyä tai lopettaa se kokonaan
+Rekisteröidyllä on oikeus pyytää tietojensa käsittelyn rajoittamista tietyissä tilanteissa.
+
+## Tiedon poistaminen rekisteristä
+### Käyttäjän oikeus poistaa tiedot
+Rekisteröidyllä on oikeus vaatia rekisterinpitäjää poistamaan hänen tietonsa kaikista rekisterinpitäjän järjestelmistä. Poistopyyntö tulee ilmoittaa kirjallisesti "Ota yhteyttä"-osiosta löytyvään sähköpostiosoitteeseen.
+
+### Palvelun velvollisuuden poistaa tiedot
+Yrityksellä on velvollisuus säilyttää henkilötietoja vain niin kauan kuin se on tarpeellista alkuperäisiin tarkoituksiin.
+
+# Oikeus pitää tietonsa suojassa
+## Tietojen suojaaminen
+Yrityksellä on velvollisuus suojata kerättyjä henkilötietoja riittävillä tietoturvatoimenpiteillä.
+
+## Henkilötietojen vastaanottajat
+Kerätyt tiedot ovat info_center_template Oy:n työntekijöiden käytettävissä tämän tietosuojaselosteen mukaisiin tarkoituksiin.
+
+## Oikeus siirtää tiedot (data portability)
+Rekisteröidyllä on oikeus vaatia rekisterinpitäjää siirtämään hänen tietonsa yleisesti käytössä olevassa siirtomuodossa toiseen järjestelmään.
+
+# Lainsäädäntö
+Palvelun toiminta pohjautuu lailliseen liiketoimintaan, joten **noudatamme myös EU:n lainsäädäntöä.**
+
+GDPR (General Data Protection Regulation) on Euroopan unionin tietosuojalaki, joka astui voimaan toukokuussa 2018.
+
+## Valvontaviranomaiselle ilmoittaminen
+Jos henkilötietoja vuotaa tai se on muuten vaarantunut, yrityksen on ilmoitettava valvontaviranomaiselle ja mahdollisesti myös vaikutuksen alaisille käyttäjille.
+
+## Oikeus tehdä valitus
+Käyttäjillä on oikeus tehdä kantelu valvontaviranomaiselle heidän henkilötietojen käsittelystä.

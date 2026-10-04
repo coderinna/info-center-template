@@ -1,0 +1,1 @@
+import{j as o,aH as m}from"./vendor-C7C9t1z-.js";const j=({showEmojiPicker:i,setText:e,setShowEmojiPicker:r})=>i?o.jsx("div",{className:"ownWall_add_post_postForm_emoji-picker",children:o.jsx(m,{onEmojiClick:s=>{e(a=>a+s.emoji),r(!1)}})}):null;export{j as default};

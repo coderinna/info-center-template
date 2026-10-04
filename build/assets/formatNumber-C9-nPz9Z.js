@@ -1,0 +1,1 @@
+function e(t){if(t==null)return"0";const r=Math.max(0,t);return r>=1e6?(r/1e6).toFixed(r>=1e7?0:1)+"M":r>=1e3?r<1e4?(r/1e3).toFixed(1).replace(".0","")+"k":Math.floor(r/1e3)+"k":r.toString()}export{e as f};

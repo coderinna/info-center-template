@@ -1,0 +1,1 @@
+import{j as l}from"./vendor-C7C9t1z-.js";function t({channelId:s,onClick:a}){return s?null:l.jsx("span",{className:"own_wall_Users_chat",children:l.jsx("div",{onClick:a,className:"own_wall_Users3 own_wall_allow",children:l.jsx("div",{className:"own_wall_chat",children:"⚙️"})})})}export{t as default};

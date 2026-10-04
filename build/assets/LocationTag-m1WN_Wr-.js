@@ -1,0 +1,1 @@
+import{j as a}from"./vendor-C7C9t1z-.js";const t=({location:s,keys:n})=>s?a.jsxs("div",{className:"location-tag",children:[a.jsx("span",{className:"location-icon"}),a.jsxs("span",{className:"location-text",children:[n?.in_location||"In location",": ",s]})]}):null;export{t as default};
